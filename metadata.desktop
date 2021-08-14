@@ -1,0 +1,11 @@
+[SddmGreeterTheme]
+Name=sddm-astronaut
+Description=sddm theme for space enthusiast
+Author=totoro
+License=GPLv.3
+Type=sddm-theme
+Version=1.0
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=sddm-astronaut
