@@ -12,24 +12,25 @@ A theme for the [SDDM login manager](https://github.com/sddm/sddm) made specific
 1. Open terminal, and clone the repository with:
 
    ```sh
-   $ git clone https://github.com/totoro-ghost/sddm-astronaut.git ~/sddm-astronaut/
+   git clone https://github.com/totoro-ghost/sddm-astronaut.git ~/sddm-astronaut/
    ```
-   
+
 2. Them move it as follows:
 
    ```sh
-   $ sudo mv ~/sddm-astronaut/ /usr/share/sddm/themes/
+   sudo mv ~/sddm-astronaut/ /usr/share/sddm/themes/
    ```
 
 3. Edit the `~/etc/sddm.conf` with [nano](https://www.nano-editor.org) or [micro](https://micro-editor.github.io) so that it looks like this:
+
    ```sh
-   $ sudo micro ~/etc/sddm.conf  # use any text editor with raised privileges
+   sudo micro ~/etc/sddm.conf  # use any text editor with raised privileges
    ---
    [Theme]
    Current=sddm-astronaut
    ```
 
-## Language and time format 
+## Language and time format
 
 - The theme interface is in English, so if you want to change the language to Spanish (or some other language), you must open the directory `sddm-astronaut/Translations/en_GB` and copy the contents of `theme.conf` to another folder `sddm-astronaut/Translations/es_ES` (or to one of the [language code](https://www.fincher.org/Utilities/CountryLanguageList.shtml)) and make relevant changes.
 - You can also change the time format.
@@ -37,9 +38,10 @@ A theme for the [SDDM login manager](https://github.com/sddm/sddm) made specific
 
 ## Credits
 
-Based on the theme "[`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark)" by **MarianArlt**.
+Based on the theme [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by **MarianArlt**.
 
 The icons used were at courtesy of the [`Boxicons`](https://boxicons.com/) team.
 
 ## License
+
 [GNU Lesser General Public License v3.0](LICENSE)
