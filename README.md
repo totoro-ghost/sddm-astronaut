@@ -12,7 +12,8 @@ A theme for the [SDDM login manager](https://github.com/sddm/sddm) made specific
 ### From AUR
 
 ```sh
-yay -Sy sddm-theme-astronaut
+yay -Syu
+yay -S sddm-theme-astronaut
 ```
 
 
@@ -32,7 +33,7 @@ yay -Sy sddm-theme-astronaut
 
 ### Common Step
 
-Edit the `/etc/sddm.conf` with [nano](https://www.nano-editor.org) or [micro](https://micro-editor.github.io) so that it looks like this:
+Edit (using [micro](https://micro-editor.github.io) here) `/etc/sddm.conf`, so that it looks like this:
 
 ```sh
 sudo micro /etc/sddm.conf  # use any text editor with raised privileges
