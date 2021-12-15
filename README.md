@@ -9,25 +9,37 @@ A theme for the [SDDM login manager](https://github.com/sddm/sddm) made specific
 
 > _Assumes that you've installed and configured SDDM correctly_ (if not [read more](https://wiki.archlinux.org/title/SDDM))
 
+### From AUR
+
+```sh
+yay -Syu
+yay -S sddm-theme-astronaut
+```
+
+
+### Manually
+
 1. Open terminal, and clone the repository with:
 
    ```sh
-   git clone https://github.com/totoro-ghost/sddm-astronaut.git ~/sddm-astronaut/
+   git clone https://github.com/totoro-ghost/sddm-astronaut.git ~/astronaut/
    ```
 
 2. Them move it as follows:
 
    ```sh
-   sudo mv ~/sddm-astronaut/ /usr/share/sddm/themes/
+   sudo mv ~/astronaut/ /usr/share/sddm/themes/
    ```
 
-3. Edit the `~/etc/sddm.conf` with [nano](https://www.nano-editor.org) or [micro](https://micro-editor.github.io) so that it looks like this:
+### Common Step
 
-   ```sh
-   sudo micro ~/etc/sddm.conf  # use any text editor with raised privileges
-   ---
-   [Theme]
-   Current=sddm-astronaut
+Edit (using [micro](https://micro-editor.github.io) here) `/etc/sddm.conf`, so that it looks like this:
+
+```sh
+sudo micro /etc/sddm.conf  # use any text editor with raised privileges
+---
+[Theme]
+Current=astronaut
    ```
 
 ## Language and time format
