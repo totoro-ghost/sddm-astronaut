@@ -40,12 +40,7 @@ Pane{
 	{
 		//Image background for input forms
 		anchors.fill: parent
-        Image 
-        {
-            source: "Assets/Card-Background/background.png"
-            fillMode: config.ScaleImageCropped == "true" ? Image.PreserveAspectCrop : Image.PreserveAspectFit
-        }
-           	
+    color: "#00050e"
 	}
 	
 	//Settings of general fonts:
